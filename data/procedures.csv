@@ -1,0 +1,6 @@
+procedure_id,name,icd_code,description
+1,Laparoscopic Cholecystectomy,K80.2,Gallbladder removal
+2,Appendectomy,K35.8,Appendix removal
+3,Inguinal Hernia Repair,K40.9,Hernia mesh repair
+4,Ovarian Cystectomy,N83.2,Ovarian cyst removal
+5,Prostatectomy,C61,Prostate removal

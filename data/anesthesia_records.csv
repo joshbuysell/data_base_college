@@ -1,0 +1,16 @@
+an_record_id,session_id,anesthesiologist_name,agent,dosage,route,timestamp,notes
+1,1,Dr. Zenovii,Sevoflurane,150 mg,IV,2025-09-01 10:00:00,Stable 1
+2,2,Dr. Lidiia,Propofol,160 mg,Inhalation,2025-09-02 10:10:00,Stable 2
+3,3,Dr. Roman,Isoflurane,170 mg,IV,2025-09-03 10:20:00,Stable 3
+4,4,Dr. Zenovii,Sevoflurane,180 mg,IV,2025-09-04 10:30:00,Stable 4
+5,5,Dr. Lidiia,Propofol,190 mg,Inhalation,2025-09-05 10:00:00,Stable 5
+6,6,Dr. Roman,Isoflurane,150 mg,IV,2025-09-06 10:10:00,Stable 6
+7,7,Dr. Zenovii,Sevoflurane,160 mg,IV,2025-09-07 10:20:00,Stable 7
+8,8,Dr. Lidiia,Propofol,170 mg,Inhalation,2025-09-08 10:30:00,Stable 8
+9,9,Dr. Roman,Isoflurane,180 mg,IV,2025-09-09 10:00:00,Stable 9
+10,10,Dr. Zenovii,Sevoflurane,190 mg,IV,2025-09-10 10:10:00,Stable 10
+11,11,Dr. Lidiia,Propofol,150 mg,Inhalation,2025-09-11 10:20:00,Stable 11
+12,12,Dr. Roman,Isoflurane,160 mg,IV,2025-09-12 10:30:00,Stable 12
+13,13,Dr. Zenovii,Sevoflurane,170 mg,IV,2025-09-13 10:00:00,Stable 13
+14,14,Dr. Lidiia,Propofol,180 mg,Inhalation,2025-09-14 10:10:00,Stable 14
+15,15,Dr. Roman,Isoflurane,190 mg,IV,2025-09-15 10:20:00,Stable 15

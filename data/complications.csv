@@ -1,0 +1,16 @@
+complication_id,session_id,type,severity,detected_at,resolved_at,description
+1,1,bleeding,mild,2025-09-01 10:30:00,2025-09-01 10:50:00,Note 1
+2,2,adhesion,moderate,2025-09-02 10:30:00,2025-09-02 10:50:00,Note 2
+3,3,equipment,severe,2025-09-03 10:30:00,2025-09-03 10:50:00,Note 3
+4,4,anesthesia,critical,2025-09-04 10:30:00,2025-09-04 10:50:00,Note 4
+5,5,none,mild,2025-09-05 10:30:00,2025-09-05 10:50:00,Note 5
+6,6,bleeding,mild,2025-09-06 10:30:00,2025-09-06 10:50:00,Note 6
+7,7,adhesion,moderate,2025-09-07 10:30:00,2025-09-07 10:50:00,Note 7
+8,8,equipment,severe,2025-09-08 10:30:00,2025-09-08 10:50:00,Note 8
+9,9,anesthesia,critical,2025-09-09 10:30:00,2025-09-09 10:50:00,Note 9
+10,10,none,mild,2025-09-10 10:30:00,2025-09-10 10:50:00,Note 10
+11,11,bleeding,mild,2025-09-11 10:30:00,2025-09-11 10:50:00,Note 11
+12,12,adhesion,moderate,2025-09-12 10:30:00,2025-09-12 10:50:00,Note 12
+13,13,equipment,severe,2025-09-13 10:30:00,2025-09-13 10:50:00,Note 13
+14,14,anesthesia,critical,2025-09-14 10:30:00,2025-09-14 10:50:00,Note 14
+15,15,none,mild,2025-09-15 10:30:00,2025-09-15 10:50:00,Note 15

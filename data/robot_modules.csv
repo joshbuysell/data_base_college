@@ -1,0 +1,16 @@
+module_id,robot_id,module_type,position_no,status
+1,1,arm,1,ok
+2,1,camera,2,calibrating
+3,1,console,3,ok
+4,2,arm,1,ok
+5,2,arm,2,calibrating
+6,2,arm,3,ok
+7,3,camera,1,ok
+8,3,console,2,calibrating
+9,3,arm,3,ok
+10,4,arm,1,ok
+11,4,arm,2,calibrating
+12,4,camera,3,ok
+13,5,console,1,ok
+14,5,arm,2,calibrating
+15,5,arm,3,ok

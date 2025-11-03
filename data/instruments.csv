@@ -1,0 +1,6 @@
+instrument_id,name,instrument_type,manufacturer,sterile_reuse_limit
+1,Endo Scissors,scissors,MedTech UA,20
+2,Maryland Forceps,forceps,MedTech UA,25
+3,Hook Electrode,electrode,NeuroSurg GmbH,15
+4,Clip Applier,clipper,SuturePro,30
+5,Needle Driver,needle_driver,SuturePro,40

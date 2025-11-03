@@ -1,0 +1,6 @@
+surgeon_id,full_name,specialty,license_no,experience_years
+1,Dr. Andrii Horobets,General Surgery,LIC00001,12
+2,Dr. Iryna Bondar,Gynecology,LIC00002,9
+3,Dr. Taras Sydorenko,Urology,LIC00003,15
+4,Dr. Mariia Hrytsenko,Hepatobiliary,LIC00004,11
+5,Dr. Oleh Kravets,Colorectal,LIC00005,8

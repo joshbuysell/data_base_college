@@ -1,0 +1,16 @@
+event_id,session_id,robot_id,module_id,level,code,message,timestamp
+1,1,1,1,info,E001,Init,2025-09-01 10:00:00
+2,2,2,2,warning,E002,Latency spike,2025-09-02 10:02:00
+3,3,3,3,error,E003,Overheat,2025-09-03 10:04:00
+4,4,4,4,critical,E004,Calibration drift,2025-09-04 10:06:00
+5,5,5,5,info,E005,Init,2025-09-05 10:08:00
+6,6,1,6,warning,E006,Latency spike,2025-09-06 10:10:00
+7,7,2,7,error,E007,Overheat,2025-09-07 10:12:00
+8,8,3,8,critical,E008,Calibration drift,2025-09-08 10:14:00
+9,9,4,9,info,E009,Init,2025-09-09 10:16:00
+10,10,5,10,warning,E010,Latency spike,2025-09-10 10:18:00
+11,11,1,11,error,E011,Overheat,2025-09-11 10:20:00
+12,12,2,12,critical,E012,Calibration drift,2025-09-12 10:22:00
+13,13,3,13,info,E013,Init,2025-09-13 10:00:00
+14,14,4,14,warning,E014,Latency spike,2025-09-14 10:02:00
+15,15,5,15,error,E015,Overheat,2025-09-15 10:04:00

@@ -1,0 +1,6 @@
+robot_id,model,serial_no,install_date,status
+1,Aesclepius R1,SR-1000,2024-01-15,ready
+2,Aesclepius R2,SR-1001,2024-02-15,ok
+3,Aesclepius R1,SR-1002,2024-03-15,maintenance
+4,Aesclepius R3,SR-1003,2024-04-15,ok
+5,Aesclepius R2,SR-1004,2024-05-15,ready

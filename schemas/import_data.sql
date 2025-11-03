@@ -1,0 +1,39 @@
+SET GLOBAL local_infile = 1;
+USE robotics_surgery_viktor_tsvyk;
+SET FOREIGN_KEY_CHECKS = 0;
+LOAD DATA LOCAL INFILE './data/patients.csv' INTO TABLE patients FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS (
+    patient_id,
+    mrn,
+    full_name,
+    dob,
+    sex,
+    blood_type,
+    @allergies,
+    diagnosis
+)
+SET allergies = NULLIF(@allergies, '');
+LOAD DATA LOCAL INFILE './data/surgeons.csv' INTO TABLE surgeons FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+LOAD DATA LOCAL INFILE './data/operating_rooms.csv' INTO TABLE operating_rooms FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+LOAD DATA LOCAL INFILE './data/surgical_robots.csv' INTO TABLE surgical_robots FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+LOAD DATA LOCAL INFILE './data/procedures.csv' INTO TABLE procedures FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+LOAD DATA LOCAL INFILE './data/instruments.csv' INTO TABLE instruments FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+LOAD DATA LOCAL INFILE './data/software_versions.csv' INTO TABLE software_versions FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+LOAD DATA LOCAL INFILE './data/robot_modules.csv' INTO TABLE robot_modules FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+LOAD DATA LOCAL INFILE './data/surgery_sessions.csv' INTO TABLE surgery_sessions FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+LOAD DATA LOCAL INFILE './data/vital_signs.csv' INTO TABLE vital_signs FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+LOAD DATA LOCAL INFILE './data/anesthesia_records.csv' INTO TABLE anesthesia_records FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+LOAD DATA LOCAL INFILE './data/imaging_data.csv' INTO TABLE imaging_data FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+LOAD DATA LOCAL INFILE './data/complications.csv' INTO TABLE complications FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+LOAD DATA LOCAL INFILE './data/maintenances.csv' INTO TABLE maintenances FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+LOAD DATA LOCAL INFILE './data/calibrations.csv' INTO TABLE calibrations FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+LOAD DATA LOCAL INFILE './data/device_events.csv' INTO TABLE device_events FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+LOAD DATA LOCAL INFILE './data/instrument_compatibilities.csv' INTO TABLE instrument_compatibilities FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+LOAD DATA LOCAL INFILE './data/session_instrument_uses.csv' INTO TABLE session_instrument_uses FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+LOAD DATA LOCAL INFILE './data/robot_software_installs.csv' INTO TABLE robot_software_installs FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+SET FOREIGN_KEY_CHECKS = 1;
+SELECT 'Імпорт завершено!' as status;
+SELECT TABLE_NAME,
+    TABLE_ROWS
+FROM INFORMATION_SCHEMA.TABLES
+WHERE TABLE_SCHEMA = 'robotics_surgery_viktor_tsvyk'
+ORDER BY TABLE_NAME;

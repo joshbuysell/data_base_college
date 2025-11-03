@@ -1,0 +1,6 @@
+patient_id,mrn,full_name,dob,sex,blood_type,allergies,diagnosis
+1,MRN0001,Ivan Petrenko,1988-03-15,M,O+,Penicillin,Cholelithiasis
+2,MRN0002,Olha Koval,1992-07-22,F,A-,,Appendicitis
+3,MRN0003,Mykola Shevchenko,1979-11-05,M,B+,Latex,Hernia
+4,MRN0004,Nastia Melnyk,1986-01-30,F,AB+,Iodine,Ovarian cyst
+5,MRN0005,Viktor Tsvyk,1996-02-09,M,O-,None,Cholecystitis
